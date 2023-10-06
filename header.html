@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+
+    <!--Import Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+</head>
+
+<body>
+	<section class="top-nav">
+  <div> <a href="index.html">
+    <div class="HStack">
+      <div class="logo"> <img src="Images/Robohornet.png" alt="Robohornet Logo" class="headerLogo"> </div>
+      <h1 class="navBarTitle"> 12:09 Robohornets </h1>
+    </div>
+    </a> </div>
+  <input id="menu-toggle" type="checkbox" />
+  <label class="menu-button-container" for="menu-toggle">
+  <div class="menu-button"></div>
+  </label>
+  <ul class="menu">
+    <li> <a href="/" class="menuText"> Home </a> </li>
+    <li> <a href="about.html" class="menuText"> About </a> </li>
+    <li> <a href="news.html" class="menuText"> News </a> </li>
+    <li> <a href="sponsors.html" class="menuText"> Sponsors </a> </li>
+    <li> <a href="contact.html" class="menuText"> Contact </a> </li>
+    <li>
+      <div class="HStack">
+            <a href="https://youtube.com/@btwroboticsclub2662" class="external"> <img src="Images/Socials/Youtube.svg" class="socialIconMenu"> </a> 
+            <a href="https://tiktok.com/@bookertwashington15" class="external"> <img src="Images/Socials/Tiktok.svg" class="socialIconMenu"> </a>
+            <a href="https://instagram.com/btwroboticsclub" class="external"> <img src="Images/Socials/Insta.svg" class="socialIconMenu"> </a> 
+            <a href="https://twitter.com/BTWRoboticsClub" class="external"> <img src="Images/Socials/Twitter.svg" class="socialIconMenu"> </a>
+            <a href="https://threads.net/@" class="external"> <img src="Images/Socials/Threads.svg" class="socialIconMenu"> </a> 
+      </div>
+    </li>
+  </ul>
+</section>
+	<script>
+		
+						$(document).on('click', 'a.external', function (event) {
+    event.preventDefault();
+
+    window.open($(this).attr('href'));
+});
+	</script>
+</body>
+</html>

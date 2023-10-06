@@ -1,0 +1,72 @@
+body {
+    font-family: 'Helvetica';
+    color: white;
+    line-height: 1.5;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+.transparentAligner {
+    color: transparent;
+}
+
+.markdownBlock {
+    margin: 20px;
+}
+
+.lowerContent {
+	margin-top: 70%;
+	position: relative;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+mark {
+    color: white;
+    padding: 3px;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: #EF893D;
+}
+
+li {
+    color: white;
+}
+
+
+
+
