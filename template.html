@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <!--This code requests for search engines to avoid indexing the site-->
+    <meta name="robots" content="noindex">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Jquery to load header and footer-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Link CSS-->
+    <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+    <!--Page title in tabs and search results-->
+    <title>Page Name | 12:09 Robohornets</title>
+    <!--Description for search results. The content of this is extremely important to optimizing our SEO.-->
+    <meta name="description"
+        content="Description for Google Search results">
+
+    <!--Favicon Code-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ef893d">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body style="background-color: #484848">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Code to display header-->
+    <div id="header" class="headerContainer"></div>
+
+    <!--Banner image and page title-->
+    <div class="ZStack">
+        <img src="Images/Banners/coverImage.png" class="titleImage">
+        <h1 class="titleText">Header Title</h1>
+        <br>
+
+
+        <div class="lowerContent">
+            <div class="bodyContainer">
+                <h3 class="bodyText">Description Text</h3>
+            </div>
+
+            <br>
+
+            <div class="bodyContainer">
+                <h2 class="leftAlign">Example Title</h2>
+                <h3 class="bodyText">Description Text</h3>
+            </div>
+
+            <br>
+
+            <div class="bodyContainer">
+                <h2 class="leftAlign">Button Section Title</h2>
+                <div class="buttonContainer">
+                    <a href="" class="defaultButton">Learn More</a>
+                </div>
+            </div>
+
+            <div id="socials" class="socialsContainer"></div>
+
+            <br>
+            <br>
+
+            <!--Display footer-->
+            <div id="footer" class="footerContainer"></div>
+        </div>
+        <!--This script loads in the header and footer files so they can be used-->
+        <script>
+            $(function () {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+                $("#socials").load("socials.html");
+            });
+        </script>
+</body>
+</div>
