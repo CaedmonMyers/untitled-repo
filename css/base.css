@@ -24,6 +24,7 @@ a {
 
 .footerTitle {
 	color: white;
+	cursor: default;
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
 }
@@ -71,6 +72,11 @@ a {
 	border-color: #FF7438;
 	border-width: 0px;
 	border-bottom-width: 2px;
+}
+
+.transparentAligner {
+	color: transparent;
+	cursor: default;
 }
 
 .footerText {
@@ -164,6 +170,7 @@ a {
 	padding-left: 30px;
 	padding-right: 30px;
 	transition: all 0.5s ease;
+	cursor: pointer;
 }
 .defaultButton:hover {
 	border-style: solid;
