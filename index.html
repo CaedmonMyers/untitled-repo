@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Jquery to load header and footer-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Link CSS-->
     <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+    <!--Page title in tabs and search results-->
     <title>12:09 Robohornets</title>
-    <meta name="description" content="We are the Robohornets, team 1209 from Booker T Washington High School. 
-    Our team of over 50 members has been part of the organization FIRST for over 15 years.">
+    <!--Description for search results. The content of this is extremely important to optimizing our SEO.-->
+    <meta name="description"
+        content="We are the Robohornets, team 1209 from Booker T Washington High School. Our team of over 50 members has been part of the organization FIRST for over 15 years.">
 
     <!--Favicon Code-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,8 +25,10 @@
 <body style="background-color: #484848">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--Code to display header-->
     <div id="header" class="headerContainer"></div>
 
+    <!--Banner image and page title-->
     <div class="ZStack">
         <img src="Images/Banners/coverImage.png" class="titleImage">
         <h1 class="titleText">BTW Robotics</h1>
@@ -33,8 +38,10 @@
         <div class="lowerContent">
             <div class="bodyContainer">
                 <h3 class="bodyText">We are Team 1209, the RoboHornets, from Booker T. Washington High School. Our team
-                    is part of an organization called <a href="https://www.firstinspires.org/" class="inlineLink">FIRST (For Inspiration
-                    and Recognition of Science and Technology)</a>, which was founded by Dean Kamen. We have been a team for
+                    is part of an organization called <a href="https://www.firstinspires.org/" class="inlineLink">FIRST
+                        (For Inspiration
+                        and Recognition of Science and Technology)</a>, which was founded by Dean Kamen. We have been a
+                    team for
                     more than 15 years, and our team has grown to over 50 members.</h3>
             </div>
 
@@ -68,14 +75,14 @@
                 <h2 class="leftAlign">Social Media</h2>
                 <div class="HStack">
                     <p class="HSpacer20"></p>
-                    <a href="https://youtube.com/@btwroboticsclub2662" class="socialIconButton"> <img src="Images/Socials/Youtube.svg"
-                            class="socialIcon"> </a>
-                    <a href="https://tiktok.com/@bookertwashington15" class="socialIconButton"> <img src="Images/Socials/Tiktok.svg"
-                            class="socialIcon"> </a>
-                    <a href="https://instagram.com/@btwroboticsclub" class="socialIconButton"> <img src="Images/Socials/Insta.svg"
-                            class="socialIcon"> </a>
-                    <a href="https://twitter.com/@BTWRoboticsClub" class="socialIconButton"> <img src="Images/Socials/Twitter.svg"
-                            class="socialIcon"> </a>
+                    <a href="https://youtube.com/@btwroboticsclub2662" class="socialIconButton"> <img
+                            src="Images/Socials/Youtube.svg" class="socialIcon"> </a>
+                    <a href="https://tiktok.com/@bookertwashington15" class="socialIconButton"> <img
+                            src="Images/Socials/Tiktok.svg" class="socialIcon"> </a>
+                    <a href="https://instagram.com/@btwroboticsclub" class="socialIconButton"> <img
+                            src="Images/Socials/Insta.svg" class="socialIcon"> </a>
+                    <a href="https://twitter.com/@BTWRoboticsClub" class="socialIconButton"> <img
+                            src="Images/Socials/Twitter.svg" class="socialIcon"> </a>
                     <a href="https://threads.net/@" class="socialIconButton"> <img src="Images/Socials/Threads.svg"
                             class="socialIcon"> </a>
                 </div>
@@ -86,8 +93,10 @@
             <br>
             <br>
 
+            <!--Display footer-->
             <div id="footer" class="footerContainer"></div>
         </div>
+        <!--This script loads in the header and footer files so they can be used-->
         <script>
             $(function () {
                 $("#header").load("header.html");
