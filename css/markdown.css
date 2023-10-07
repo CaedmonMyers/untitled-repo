@@ -69,6 +69,7 @@ a:hover {
 
 .pointerHover {
     cursor: pointer;
+    display: inline;
 }
 
 details {
