@@ -4,8 +4,11 @@ This file uses markdown. If you need to know more about markdown, visit https://
 
 
 # Impact Award
+<details>
+<summary class="pointerHover">The following are links to our 2018 FRC Chairman’s Award essay as well as our 2018 video.</summary>
+ The Chairman’s Award recognizes a team that exemplifies FIRST values: a team that other teams can look up to. This team embodies all the ideals of FIRST including gracious professionalism. The award application includes an essay in addition to short answer responses and a video, all of which explain how our team exemplifies the ideals of FIRST.
+</details>
 
-The following are links to our 2018 FRC Chairman’s Award essay as well as our 2018 video. The Chairman’s Award recognizes a team that exemplifies FIRST values: a team that other teams can look up to. This team embodies all the ideals of FIRST including gracious professionalism. The award application includes an essay in addition to short answer responses and a video, all of which explain how our team exemplifies the ideals of FIRST.
 
 
 <hr><!--__________Separator for outreach items__________-->

@@ -67,6 +67,14 @@ a:hover {
     color: transparent;
 }
 
+.pointerHover {
+    cursor: pointer;
+}
+
+details {
+    transition: all 0.5s ease;
+}
+
 .menuText:hover {
     color: white;
 }
