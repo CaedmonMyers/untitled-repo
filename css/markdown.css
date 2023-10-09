@@ -23,8 +23,20 @@ body {
 	position: relative;
 }
 
-h1 {
+.markdownBlock h1 {
     color: white;
+    box-shadow: 0px 0px 20px #FF7438;
+    width: 100%;
+    text-align: center;
+}
+
+.expand {
+    color: #FF7438;
+    cursor: pointer;
+}
+
+.expand:hover {
+    color: black;
 }
 
 h2 {

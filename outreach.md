@@ -31,6 +31,10 @@ details[open] p#lessButtonStatus { display:  inline; }
 });
 </script>
 
+
+<!--Start of Outreach Feed. Add new articles to the top-->
+
+
 # Impact Award
 <details class="detailsContainer">
     <summary class="pointerHover">The following are links to our 2018 FRC Chairman’s Award essay as well as our 2018 video.

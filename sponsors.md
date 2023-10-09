@@ -1,26 +1,42 @@
 <!--
-This is the news feed for the BTW Robohornets website.
-It uses Markdown for the articles.
-
-Use hashtags for text size (1-6 are supported)
-# This is a large title
-## This is a smaller title
-###### This is the smallest title
-No hashtags is paragraph formatting
-
-Use dashes (-) for a bulleted list
-
-Use numbers with a period (1.) for a numbered list
-
-Use brackets for the title and parentheses for the link for a hyperlink
-[Example Title](https://www.example.com)
-
-
-Use <mark> to highlight text with a color
-<mark style="background: blue">Blue</mark>
-
-
-Website orange color is #EF893D
+This file uses markdown. If you need to know more about markdown, visit https://github.com/CaedmonMyers/untitled-repo/wiki/Markdown-Basics
 -->
+<style>
+    .pointerHover { cursor: pointer; }
+    p#moreButtonStatus { display: inline; }
+details[open] p#moreButtonStatus { display:  none; }
+p#lessButtonStatus { display: none; }
+details[open] p#lessButtonStatus { display:  inline; }
+.expand { color: #FF7438;}
+</style>
+
+<script>
+    document.querySelector('moreButton').addEventListener('toggle', function (e) {
+    var statusElement = document.getElementById('moreButtonStatus');
+    if (this.open) {
+        statusElement.innerText = "Hidden";
+    } else {
+        statusElement.innerText = "Shown";
+    }
+});
+</script>
+<script>
+    document.querySelector('lessButton').addEventListener('toggle', function (e) {
+    var statusElement = document.getElementById('lessButtonStatus');
+    if (this.open) {
+        statusElement.innerText = "Hidden";
+    } else {
+        statusElement.innerText = "Shown";
+    }
+});
+</script>
+
+
+<!--Start of Sponsors-->
+
+
 
 # Titanium Sponsors
+
+
+<br><hr><br><!--__________Separator for sponsors__________-->
