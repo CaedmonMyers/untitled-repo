@@ -151,10 +151,6 @@ a {
 	text-decoration: underline;
 }
 
-.footerPlainTextButton {
-
-}
-
 .inlineLink:hover {
 	color: #FF7438;
 }
@@ -214,10 +210,6 @@ br {
 	height: 30px;
 	width: 30px;
 	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(105%) contrast(100%);
-}
-
-.socialIcon:hover {
-	
 }
 
 .emailIcon {
