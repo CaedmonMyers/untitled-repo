@@ -65,6 +65,7 @@ a {
 
 .menuText {
 	color: white;
+	border-color: #FF7438;
 }
 
 .menuText:hover {
@@ -73,6 +74,7 @@ a {
 	border-width: 0px;
 	border-bottom-width: 2px;
 }
+
 
 .transparentAligner {
 	color: transparent;
@@ -97,38 +99,40 @@ a {
 	color: white;
 	opacity: 50%;
 }
+
 .sitemapButton:hover {
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
 }
 
 .emailField {
-    padding: 10px;
-    width: 95%;
+	padding: 10px;
+	width: 95%;
 	min-width: 95%;
 	max-width: 95%;
 	color: #FFF;
-    background-color: #FF7438;
-    border-width: 0px;
-    border-radius: 5px;
+	background-color: #FF7438;
+	border-width: 0px;
+	border-radius: 5px;
 	outline: transparent;
 	transition: all 0.5s ease;
 	font-weight: bold;
 }
 
 .emailField::placeholder {
-    color: #C04F1E;
-    font-weight: bold;
+	color: #C04F1E;
+	font-weight: bold;
 	transition: all 0.5s ease;
 }
 
 .emailField:hover {
 	color: #FF7438;
-    background-color: #C04F1E;
+	background-color: #C04F1E;
 }
+
 .emailField:hover::placeholder {
-    color: #6C2100;
-    font-weight: bold;
+	color: #6C2100;
+	font-weight: bold;
 }
 
 .emailField:focus::placeholder {
@@ -137,7 +141,7 @@ a {
 
 .emailField:focus {
 	color: #fff;
-    background-color: #000;
+	background-color: #000;
 }
 
 
@@ -158,20 +162,20 @@ a {
 .inlineLink {
 	color: white;
 	text-decoration: underline;
-  }
+}
 
-  .inlineLink:hover {
+.inlineLink:hover {
 	text-decoration-color: #FF7438;
-  }
-  
-  span {
+}
+
+span {
 	display: inline;
 	transition: color 0.5s ease;
-  }
-  
-  
-  
-  
+}
+
+
+
+
 
 .defaultButton {
 	border-style: solid;
@@ -186,6 +190,7 @@ a {
 	transition: all 0.5s ease;
 	cursor: pointer;
 }
+
 .defaultButton:hover {
 	border-style: solid;
 	border-color: transparent;
@@ -243,8 +248,9 @@ br {
 	padding: 10px;
 	margin: 5px;
 	transition: all 0.5s ease-in-out;
-	
+
 }
+
 .socialIconButton:hover {
 	background-color: #000000;
 	border-radius: 100px;
@@ -511,6 +517,7 @@ li:hover {
 	.menu>li:not(:last-child) {
 		border-bottom: 1px solid #444;
 	}
+
 	.menu>li:is(:last-child) {
 		box-shadow: 0px 7px 7px #FF743880;
 	}
