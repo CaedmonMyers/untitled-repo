@@ -10,26 +10,6 @@ details[open] p#lessButtonStatus { display:  inline; }
 .expand { color: #FF7438;}
 </style>
 
-<script>
-    document.querySelector('moreButton').addEventListener('toggle', function (e) {
-    var statusElement = document.getElementById('moreButtonStatus');
-    if (this.open) {
-        statusElement.innerText = "Hidden";
-    } else {
-        statusElement.innerText = "Shown";
-    }
-});
-</script>
-<script>
-    document.querySelector('lessButton').addEventListener('toggle', function (e) {
-    var statusElement = document.getElementById('lessButtonStatus');
-    if (this.open) {
-        statusElement.innerText = "Hidden";
-    } else {
-        statusElement.innerText = "Shown";
-    }
-});
-</script>
 
 
 <!--Start of Outreach Feed. Add new articles to the top-->
