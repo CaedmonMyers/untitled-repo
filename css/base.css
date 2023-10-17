@@ -146,9 +146,6 @@ a {
 
 
 
-
-
-
 /*Code for buttons and links*/
 /*.inlineLink {
 	color: white;
@@ -217,21 +214,27 @@ br {
 	height: 20px;
 }
 
+
 .socialIconMenu {
-	height: 30px;
+	height: 40px;
 	width: 30px;
-	padding-left: 10px;
-	padding-bottom: 5px;
+	padding-left: 0px;
 	margin: 10px;
+	padding-bottom: 15px;
+	transform: scale(0.75);
 	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(105%) contrast(100%);
+	position: relative;
 	transition: all 0.5s ease, transform 0.3s ease;
 }
+  
 
 .socialIconMenu:hover {
 	filter: invert(59%) sepia(68%) saturate(843%) hue-rotate(335deg) brightness(100%) contrast(88%);
-	transform: scale(1.5);
 	cursor: none;
+	transform: scale(1);
 }
+  
+  
 
 .socialIcon {
 	height: 30px;
@@ -266,6 +269,11 @@ br {
 /*Code for layouters (e.g. HStack, ZStack)*/
 .HStack {
 	display: inline-flex;
+}
+
+.SocialIcons {
+	display: inline-flex;
+	margin-top: -10px;
 }
 
 .ZStack {
@@ -419,6 +427,7 @@ li:hover {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	margin-top: 30px;
 }
 
 .menu>li {
