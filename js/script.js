@@ -1,3 +1,14 @@
+
+
+// Loading Header and Footer
+$(function () {
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+    $("#socials").load("socials.html");
+});
+
+
+// Inline link animations
 document.addEventListener('DOMContentLoaded', () => {
     const links = document.querySelectorAll('.inlineLink');
 
@@ -31,8 +42,29 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-$(function () {
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-    $("#socials").load("socials.html");
-});
+// Microsoft Clarity
+(function (c, l, a, r, i, t, y) {
+    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+    t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+})(window, document, "clarity", "script", "j6oi0l76n9");
+
+
+
+// Google Analytics
+const script = document.createElement('script');
+script.async = true;
+script.src = "https://www.googletagmanager.com/gtag/js?id=G-B1QD5KKPDC";
+document.head.appendChild(script);
+
+const script = document.createElement('script');
+script.async = true;
+script.src = "https://www.googletagmanager.com/gtag/js?id=G-B1QD5KKPDC";
+document.head.appendChild(script);
+
+script.onload = function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-B1QD5KKPDC');
+};
