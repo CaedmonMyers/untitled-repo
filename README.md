@@ -17,6 +17,8 @@
 - [ ] Make fun graphics and write text for the 404 Error page
 - [ ] Change socials to use the same or similar usernames across all platforms
 - [ ] Figure out collaborative coding on different computers in VS Code
+- [ ] Re-write all content for pages
+- [ ] Find someone to write news and outreach page content
 
 ### Ideas
 - [ ] Make video banner cover on homepage instead of static image?
