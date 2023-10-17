@@ -1,12 +1,5 @@
 
 
-// Loading Header and Footer
-$(function () {
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-    $("#socials").load("socials.html");
-});
-
 
 // Inline link animations
 document.addEventListener('DOMContentLoaded', () => {
@@ -41,6 +34,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Loading Header and Footer
+$(function () {
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+    $("#socials").load("socials.html");
+});
+
 
 // Microsoft Clarity
 (function (c, l, a, r, i, t, y) {
@@ -51,20 +51,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Google Analytics
-const script = document.createElement('script');
-script.async = true;
-script.src = "https://www.googletagmanager.com/gtag/js?id=G-B1QD5KKPDC";
-document.head.appendChild(script);
 
-const script = document.createElement('script');
-script.async = true;
-script.src = "https://www.googletagmanager.com/gtag/js?id=G-B1QD5KKPDC";
-document.head.appendChild(script);
-
-script.onload = function () {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-B1QD5KKPDC');
-};
