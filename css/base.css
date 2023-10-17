@@ -230,7 +230,7 @@ br {
 
 .socialIconMenu:hover {
 	filter: invert(59%) sepia(68%) saturate(843%) hue-rotate(335deg) brightness(100%) contrast(88%);
-	cursor: none;
+	cursor: pointer;
 	transform: scale(1);
 }
   
