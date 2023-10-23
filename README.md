@@ -23,3 +23,7 @@
 ### Ideas
 - [ ] Make video banner cover on homepage instead of static image?
 - [ ] Make page header stay at the top on scroll?
+
+### Bugs
+- [ ] Fix whatever this is:
+![Screenshot 2023-10-22 at 8 38 39 PM](https://github.com/CaedmonMyers/1209-robotics/assets/79024214/de67e1f8-1eac-4705-9500-a5aafafe7073)
