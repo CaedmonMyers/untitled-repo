@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('mouseover', () => {
             Array.from(link.children).forEach((span, i) => {
                 setTimeout(() => {
-                    span.style.color = '#FF7438';
+                    span.style.color = '#FC3F83';
                 }, i * 30);
             });
         });
