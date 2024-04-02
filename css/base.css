@@ -3,21 +3,6 @@
 	src: url('/Fonts/orbitron-black.ttf');
 }
 
-@font-face {
-	font-family: 'Bitsumis';
-	src: url('/Fonts/Bitsumis.ttf');
-}
-
-@font-face {
-	font-family: 'Cafe Nero';
-	src: url('/Fonts/Cafe\ Nero\ M54.ttf');
-}
-
-@font-face {
-	font-family: 'Trivial Bold';
-	src: url('/Fonts/Trivial-Bold.otf');
-}
-
 
 /*Code for general elements*/
 html,

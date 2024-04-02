@@ -46,6 +46,23 @@
                 window.open($(this).attr('href'));
             });
         </script>
+<script>
+    $(document).ready(function() {
+      var currentURL = window.location.pathname;
+      $('.menuText').each(function() {
+        var $this = $(this);
+        var linkURL = $this.attr('href');
+  
+        if (currentURL === '/' && linkURL === '/') {
+          $this.addClass('active');
+        } else if (currentURL.includes(linkURL) && linkURL !== '/') {
+          $this.addClass('active');
+        } else {
+          $this.removeClass('active');
+        }
+      });
+    });
+  </script>
     </div>
 </center>
 </body>

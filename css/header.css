@@ -62,6 +62,11 @@
         transition: all 400ms ease;
     }
 
+    .menuText.active {
+        border-color: white;
+      }
+
+
     .menuText:hover {
         border-color: white;
         opacity: 0.5;
