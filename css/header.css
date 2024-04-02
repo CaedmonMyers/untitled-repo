@@ -147,13 +147,31 @@
     }
     
     .menu>li {
-        margin: 0 1rem;
         overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
     }
 
     .menuText {
         color: white;
+        padding: 10px;
+        width: 100%;
+        border-color: transparent;
+        border-style: solid;
+        border-radius: 100px;
+        border-width: 2px;
         text-decoration: none;
+        transition: all 300ms ease;
+    }
+
+    .menuText:hover {
+        border-color: white;
+        opacity: 0.5;
+    }
+
+    .menuText.active {
+        border-color: white;
     }
     
     .menu-button-container {
@@ -230,7 +248,7 @@
             justify-content: center;
             align-items: center;
             border-radius: 30px;
-            background: linear-gradient(90deg, #FFA927, #FC3F83);
+            background: linear-gradient(180deg, #FFA927, #FC3F83);
         }
     
         #menu-toggle~.menu li {
