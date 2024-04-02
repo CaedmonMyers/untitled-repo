@@ -28,7 +28,6 @@ details[open] p#lessButtonStatus {
 body {
     font-family: 'Helvetica';
     color: white;
-    line-height: 1.5;
 }
 
 html,
@@ -43,6 +42,7 @@ body {
 
 .markdownBlock {
     margin: 20px;
+    line-height: 1.5;
 }
 
 .lowerContent {
