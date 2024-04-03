@@ -1,17 +1,19 @@
 @media only screen and (min-width: 650px) {
     .headerImage {
-        border-radius: 100px;
+        border-radius: 1000px;
         border-color: white;
         border-style: solid;
         border-width: 3px;
         background-color: rgb(255, 255, 255, 0.4);
         height: 50px;
         width: 50px;
-        transition: rotate 100s ease-in-out;
+        transition: rotate 100s ease-in-out, width 100s ease-in-out, height 100s ease-in-out;
     }
 
     .headerImage:hover {
         rotate: -360000deg;
+        width: 5000px;
+        height: 5000px;
     }
 
     .headerImageContainer {
