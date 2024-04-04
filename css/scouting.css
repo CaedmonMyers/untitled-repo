@@ -1,0 +1,400 @@
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/Fonts/orbitron-black.ttf');
+}
+
+
+/*Code for general elements*/
+html,
+body {
+	margin: 0;
+	height: 100%;
+font-family: 'Helvetica', Arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*Code for body text and headers*/
+.bodyText {
+	color: white;
+	margin: 20px;
+	line-height: 1.75;
+	font-family: 'Helvetica';
+}
+
+.headingText {
+	color: white;
+}
+
+.footerTitle {
+	color: white;
+	cursor: default;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+.titleText {
+	font-family: 'Orbitron', 'Helvetica';
+	margin-top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 10vw;
+	position: absolute;
+	color: white;
+	cursor: default;
+	-webkit-text-stroke-width: 2px;
+  	-webkit-text-stroke-color: black;
+	text-shadow: #9AA8FF -5px -5px 10px, #FC3F83 5px 5px 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.titleText:hover {
+	transform: scale(1.1);
+	/* text-shadow: #fff 0px 0px 10px; */
+	text-shadow: #9AA8FF -5px -5px 10px, #9AA8FF 5px 5px 10px;
+	-webkit-text-stroke-color: white;
+	cursor: pointer;
+}
+
+.whiteButtonText {
+	color: white;
+	position: relative;
+}
+
+
+
+
+
+.transparentAligner {
+	color: transparent;
+	cursor: default;
+}
+
+.footerText {
+	width: 175px;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 0px;
+	border-bottom-width: 2px;
+	color: white;
+}
+
+.footerText:hover {
+	border-color: #9AA8FF;
+	border-bottom-width: 2px;
+}
+
+.sitemapButton {
+	color: white;
+	opacity: 50%;
+}
+
+.sitemapButton:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+.emailField {
+	padding: 10px;
+	width: 95%;
+	min-width: 95%;
+	max-width: 95%;
+	color: #FFF;
+	background-color: #9AA8FF;
+	border-width: 0px;
+	border-radius: 5px;
+	outline: transparent;
+	transition: all 0.5s ease;
+	font-weight: bold;
+}
+
+.emailField::placeholder {
+	color: #C04F1E;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+.emailField:hover {
+	color: #9AA8FF;
+	background-color: #C04F1E;
+}
+
+.emailField:hover::placeholder {
+	color: #6C2100;
+	font-weight: bold;
+}
+
+.emailField:focus::placeholder {
+	color: #B3B3B3;
+}
+
+.emailField:focus {
+	color: #fff;
+	background-color: #000;
+}
+
+
+
+/*Code for buttons and links*/
+/*.inlineLink {
+	color: white;
+	text-decoration: underline;
+}
+
+.inlineLink:hover {
+	color: #9AA8FF;
+}*/
+
+.inlineLink {
+	color: white;
+	text-decoration: underline;
+}
+
+.inlineLink:hover {
+	text-decoration-color: #9AA8FF;
+}
+
+/*span {
+	display: inline;
+	transition: color 0.5s ease;
+}*/
+
+
+
+
+
+.defaultButton {
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 5px;
+	color: white;
+	background-color: #9AA8FF;
+	border-width: 3px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.defaultButton:hover {
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 100px;
+	color: white;
+	background-color: #000000;
+	border-width: 3px;
+}
+
+
+
+/*Code for images and icons*/
+.titleImage {
+	position: absolute;
+	width: 100%;
+	filter: hue-rotate(0deg) brightness(50%) grayscale(0%);
+}
+
+.headerLogo {
+	height: 65px;
+}
+
+br {
+	height: 20px;
+}
+
+hr {
+	box-shadow: #9AA8FF 0px -2px 10px, #FC3F83 0px 2px 10px;
+}
+
+
+.socialIconMenu {
+	height: 40px;
+	width: 30px;
+	padding-left: 0px;
+	margin: 10px;
+	padding-bottom: 15px;
+	transform: scale(0.75);
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(105%) contrast(100%);
+	position: relative;
+	transition: all 0.5s ease, transform 0.3s ease;
+}
+  
+
+.socialIconMenu:hover {
+	filter: invert(59%) sepia(68%) saturate(843%) hue-rotate(335deg) brightness(100%) contrast(88%);
+	cursor: pointer;
+	transform: scale(1);
+}
+  
+  
+
+.socialIcon {
+	height: 30px;
+	width: 30px;
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(105%) contrast(100%);
+}
+
+
+.emailIcon {
+	height: 15px;
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(105%) contrast(100%);
+}
+
+.socialIconButton {
+	/* background-color: transparent; */
+	/* background-image: linear-gradient(-225deg, rgba(255, 169, 39, 0.0), rgba(252, 63, 131, 1.0)); */
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	transition: all 800ms linear;
+
+}
+
+.socialIconButton:hover {
+	/* background-color: #000000; */
+	background-image: linear-gradient(-225deg, rgba(255, 169, 39, 1.0), rgba(252, 63, 131, 1.0));
+	border-radius: 100px;
+}
+
+/* .socialIconButton {
+	background-color: #9AA8FF;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	transition: all 200ms ease-in-out;
+
+}
+
+.socialIconButton:hover {
+	background-color: #000000;
+	border-radius: 100px;
+} */
+
+
+
+/*Code for layouters (e.g. HStack, ZStack)*/
+.HStack {
+	display: inline-flex;
+}
+
+.SocialIcons {
+	display: inline-flex;
+	margin-top: -10px;
+}
+
+.ZStack {
+	position: relative;
+}
+
+.leftAlign {
+	text-align: left;
+	padding: 20px;
+	padding-bottom: 0px;
+	color: white;
+}
+
+.leftAlignNoPadding {
+	text-align: left;
+	color: white;
+}
+
+.contactSubtitles {
+	text-align: left;
+	padding-left: 25px;
+	opacity: 0.5;
+	color: white;
+}
+
+.centerAlign {
+	text-align: center;
+	justify-content: center;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 0px;
+	border-bottom-width: 2px;
+	color: white;
+}
+
+.centerAlign:hover {
+	text-decoration: underline;
+	text-decoration-color: #9AA8FF;
+	text-decoration-thickness: 2px;
+}
+
+.limitWidth {
+	width: 175px;
+}
+
+.HSpacer20 {
+	width: 20px;
+}
+
+.sectionPadding20 {
+	margin: 20px;
+}
+
+.column {
+	text-align: left;
+}
+
+.HSpacerDynamic {
+	width: 60px;
+}
+
+.footerSitemapPadding {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+/*Code for containers*/
+.headerContainer {
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+}
+
+.footerContainer {
+	position: relative;
+}
+
+.footerContainerBG {
+	padding: 10px;
+	background-color: #3C3C3C;
+}
+
+.bodyContainer {
+	padding: 10px;
+	background-color: #3C3C3C;
+}
+
+.centerItem {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.lowerContent {
+	margin-top: 50%;
+	position: relative;
+}
+
+.buttonContainer {
+	padding: 25px;
+	padding-top: 10px;
+}
+
+
+
+
+
