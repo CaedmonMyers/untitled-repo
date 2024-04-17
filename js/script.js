@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Array.from(link.children).forEach((span, i) => {
                 setTimeout(() => {
                     // span.style.color = '#FF7438';
+                    span.style.fontStyle = 'italic';
                     span.style.color = `rgb(${255 - (3/link.children.length*i)}, ${169 - (106/link.children.length*i)}, ${39 + (92/link.children.length*i)}, 1.0)`;
                 }, i * 7);
             });
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Array.from(link.children).forEach((span, i) => {
                 setTimeout(() => {
                     span.style.color = 'white';
+                    span.style.fontStyle = 'normal';
                 }, i * 7);
             });
         });
